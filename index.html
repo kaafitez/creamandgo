@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cream & Go Bakery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo-container">
+            <img src="creamandgologo.png" alt="Cream & Go Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-logo">
+        </div>
+        <div class="hero-text">
+            <h1>Welcome to Cream & Go</h1>
+            <p>Your premium on-the-go bakery for delicious, customizable desserts.</p>
+            <a href="#menu" class="cta-button">Order Now</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-us">
+        <h2>Our Story</h2>
+        <p>Cream & Go is a unique bakery located in Vancouver's downtown, focused on providing high-quality, customizable baked goods. We aim to fill a gap in the market with desserts that cater to your personal taste and are convenient for takeout.</p>
+        <p>Our location: 1169 Robson Street, Vancouver BC, V6E-1B5</p>
+        
+        <!-- Embedded Google Map -->
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.220594030431!2d-123.12949538454315!3d49.28482627933399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548671d515b915b5%3A0x26495cf4fc27d7ed!2s1169%20Robson%20St%2C%20Vancouver%2C%20BC%20V6E%201B5!5e0!3m2!1sen!2sca!4v1601588502577!5m2!1sen!2sca"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <!-- Product Catalog Section -->
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-category">
+            <h3>Mini Cupcakes</h3>
+            <div class="product">
+                <img src="vanillacupcake.png" alt="Vanilla Dream Cupcake">
+                <p>Vanilla Dream: Soft, light vanilla cake topped with a smooth buttercream frosting.</p>
+            </div>
+            <div class="product">
+                <img src="choco.png" alt="Chocolate Fudge Cupcake">
+                <p>Chocolate Fudge: Rich, moist chocolate cake topped with decadent chocolate frosting.</p>
+            </div>
+            <!-- Add more cupcakes as needed -->
+        </div>
+
+        <div class="menu-category">
+            <h3>Mini Muffins</h3>
+            <div class="product">
+                <img src="bmuffin.png" alt="Banana Nut Muffin">
+                <p>Banana Nut: Moist banana muffins with a sprinkle of toasted nuts.</p>
+            </div>
+            <div class="product">
+                <img src="blumuffin.png" alt="Blueberry Bliss Muffin">
+                <p>Blueberry Bliss: Sweet blueberry muffins with a crumbly sugar topping.</p>
+            </div>
+            <!-- Add more muffins as needed -->
+        </div>
+
+        <!-- Add more sections for dry cake slices, bento cakes, and cake lollipops -->
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <p>Store Address: 1169 Robson Street, Vancouver BC, V6E-1B5</p>
+        <p>Contact: (123) 456-7890 | <a href="mailto:info@creamandgo.com">info@creamandgo.com</a></p>
+        <div class="contact-form">
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-logo">
+            <img src="creamandgologo.png" alt="Cream & Go Logo">
+        </div>
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+        <p>&copy; 2024 Cream & Go. All rights reserved.</p>
+    </footer>
+</body>
+</html>

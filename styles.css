@@ -1,0 +1,248 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li, a, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #ffe4e1; /* Light pink background */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #fff0f5; /* Pastel pink */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid #f5c6d1; /* Light pink border */
+}
+
+.logo-container img,
+.footer-logo img,
+.hero-logo img {
+    width: auto;
+    max-width: 150px; /* Adjust as needed */
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d36b81; /* Contrast pink */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f5a9b8; /* Lighter pink on hover */
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fadadd; /* Light pink */
+}
+
+.hero-logo img {
+    max-width: 150px; /* Adjust size as needed */
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    margin-top: 20px;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    color: #a16768; /* Bubblegum pink */
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    color: #4d4244; /* Light pink */
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #b47e89; /* Light bubblegum pink */
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #d36b81; /* Darker bubblegum pink on hover */
+}
+
+/* About Us Section */
+.about-us {
+    padding: 40px 20px;
+    background-color: #fff0f5; /* Pastel pink */
+    text-align: center;
+    color: #6c2c37
+    
+}
+
+.map-container iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    border: none;
+    margin: 20px auto;
+}
+
+/* Menu Section */
+.menu {
+    padding: 40px 20px;
+    background-color: #ffe4e1; /* Light pink */
+}
+
+.menu-category {
+    margin-bottom: 40px;
+    text-align: center; /* Center-align the header */
+    position: relative; /* For pseudo-elements */
+    color: #59242e
+}
+
+.menu-category h3 {
+    margin: 20px 0;
+    color: #d36b81; /* Contrast pink */
+    font-size: 2rem;
+    position: relative;
+}
+
+/* Fancy lines for headers */
+.menu-category h3::before,
+.menu-category h3::after {
+    content: '';
+    display: block;
+    width: 50px; /* Length of the line */
+    height: 2px; /* Thickness of the line */
+    background-color: #d36b81; /* Color of the line */
+    position: absolute;
+    top: 50%; /* Center the line vertically */
+    transform: translateY(-50%);
+}
+
+.menu-category h3::before {
+    left: -60px; /* Adjust position */
+}
+
+.menu-category h3::after {
+    right: -60px; /* Adjust position */
+}
+
+/* Contact Us Section */
+.contact {
+    padding: 40px 20px;
+    background-color: #fff0f5; /* Pastel pink */
+    text-align: center;
+}
+
+.contact h2 {
+    color: #f39c9d; /* Bubblegum pink */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* Fancy lines for the "Contact Us" header */
+.contact h2::before,
+.contact h2::after {
+    content: '';
+    display: block;
+    width: 40px; /* Length of the line */
+    height: 2px; /* Thickness of the line */
+    background-color: #d36b81; /* Color of the line */
+    position: absolute;
+    top: 50%; /* Center the line vertically */
+    transform: translateY(-50%);
+}
+
+.contact h2::before {
+    left: -50px; /* Adjust position */
+}
+
+.contact h2::after {
+    right: -50px; /* Adjust position */
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #d36b81; /* Contrast pink */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #f5c6d1; /* Light pink border */
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #f5a9b8; /* Light bubblegum pink */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contact-form button:hover {
+    background-color: #d36b81; /* Darker bubblegum pink on hover */
+}
+
+/* Footer */
+footer {
+    padding: 20px 0;
+    background-color: #fff0f5; /* Pastel pink */
+    border-top: 2px solid #f5c6d1; /* Light pink border */
+    text-align: center;
+}
+
+.footer-logo {
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #d36b81; /* Contrast pink */
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    color: #f5a9b8; /* Lighter pink on hover */
+}
